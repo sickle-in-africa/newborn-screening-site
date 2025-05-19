@@ -1,0 +1,52 @@
+site_name: Newborn Screening Study
+edit_uri: "Newborn Screening Study"
+
+theme:
+  name: material
+  language: en
+  favicon: img/logo.png
+  logo: img/logo.png
+  font:
+    text: Sans-serif
+
+  palette:
+    scheme: default
+    primary: white
+    accent: indigo
+
+  features:
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap 
+  - stylesheets/custom.css
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+
+
+
+nav:
+  - Introduction: index.md
+  - Data Collection: data.md
+  - Harmonization & Cleaning: harmonization.md
+  - Diagnostic Accuracy: diagnostics.md
+  - Final Results: results.md
+  - Contributing & Collaboration: contribute.md
+

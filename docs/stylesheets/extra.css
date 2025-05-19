@@ -1,0 +1,63 @@
+* {
+    font-size: 0.7rem;
+}
+
+.someclass {
+    height: 700px;
+    width: 700px;
+    border: 10px solid red;
+}
+
+
+/* Exact teal header and nav */
+
+:root {
+    --md-primary-fg-color: #00897b;
+    /* Teal like Argo CD */
+    --md-accent-fg-color: #26a69a;
+}
+
+.md-nav__title {
+    display: none !important;
+}
+
+
+/* Set global font */
+
+body {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 2px !important;
+    /* line-height: 1.7; */
+    color: #222;
+}
+
+
+/* Headings font & size */
+
+h1 {
+    font-size: 2.2rem !important;
+}
+
+h2 {
+    font-size: 1.8rem !important;
+}
+
+h3 {
+    font-size: 1.4rem !important;
+}
+
+
+/* Sidebar font size */
+
+.md-nav__link {
+    font-size: 15px !important;
+}
+
+
+/* Code blocks */
+
+code,
+pre {
+    font-family: "Fira Code", monospace;
+    font-size: 14px;
+}

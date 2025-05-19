@@ -1,0 +1,123 @@
+/* Match Just the Docs sidebar look */
+
+.md-nav__title,
+.md-nav__item--section>label {
+    font-weight: 600;
+    color: #444;
+}
+
+
+/* Sidebar background */
+
+.md-sidebar--primary {
+    /* background-color: #f7f6fa; */
+    background-color: white;
+}
+
+
+/* Page background */
+
+.md-main {
+    background-color: #ffffff;
+}
+
+
+/* Match Just the Docs purple links */
+
+a {
+    color: #8000c9;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Logo sizing */
+
+.md-header__button.md-logo {
+    height: 40px;
+}
+
+.md-nav__title {
+    display: none !important;
+    background-color: white !important;
+    color: white !important;
+}
+
+
+/* Set global font */
+
+body {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+
+/* Customize headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+
+/* Sidebar font size */
+
+.md-nav {
+    font-size: 15px;
+}
+
+
+/* Code block font */
+
+code,
+pre {
+    font-family: "Fira Code", monospace;
+    font-size: 14px;
+}
+
+
+/* Remove the entire grey header bar in the sidebar */
+
+.md-nav__header {
+    display: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 0 !important;
+}
+
+
+/* Modern table style: remove vertical borders */
+
+.modern-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.modern-table th,
+.modern-table td {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.modern-table th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root {
+    --md-text-font: "Inter", sans-serif;
+}
